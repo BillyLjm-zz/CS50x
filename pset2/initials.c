@@ -21,7 +21,7 @@ int main(void){
 	// Get name
 	string s  = GetString();
 
-	// Output initals
+	// Output initials
 	for(int i = 0, len = strlen(s); i < len; i++){
 		if(isspace(s[i-1]) || i == 0)
 			printf("%c", toupper(s[i]));

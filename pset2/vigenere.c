@@ -5,7 +5,7 @@
  * @brief: Vigenere cipher program
  *
  * Alphabetical key must be given as argument
- * Afterwhich, enter the plain text
+ * After which, enter the plain text
  * e.g.
  * 	>> ./vigenere foo
  * 	>> the quick brown fox
@@ -22,13 +22,13 @@ int main(int argc, char** argv){
 	int keylen; // length of key phrase
 	//int[] key  // key phrase converted to numbers
 	string plaintxt; // plain text input
-	
+
 	// check if key was passed in
 	if(argc != 2){
 		printf("Please provide a single alphabetical key\n");
 		return 1;
 	}
-	
+
 	// check if key is alphabetical
 	keyphrase = argv[1];
 	keylen = strlen(keyphrase);
@@ -38,7 +38,7 @@ int main(int argc, char** argv){
 			return 1;
 		}
 	}
-	
+
 	// get numeric version of key
 	int key[keylen];
 	for(int i = 0; i < keylen; i++){
@@ -47,10 +47,10 @@ int main(int argc, char** argv){
 		else
 			key[i] = ((int)keyphrase[i]) - 65;
 	}
-	
+
 	// get plain text
 	plaintxt = GetString();
-	
+
 	// Vigenere cipher
 	for(int i = 0, keycount = 0, len = strlen(plaintxt); i < len; i++){
 		if(islower(plaintxt[i])){
@@ -64,7 +64,7 @@ int main(int argc, char** argv){
 		else
 			printf("%c", plaintxt[i]);
 	}
-	
+
 	// end
 	printf("\n");
 	free(plaintxt);

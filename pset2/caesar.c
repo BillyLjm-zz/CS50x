@@ -5,7 +5,7 @@
  * @brief: Caesar cipher program
  *
  * Non-negative integer key must be given as argument
- * Afterwhich, enter the plain text
+ * After which, enter the plain text
  * e.g.
  * 	>> ./caesar 6
  * 	>> the quick brown fox

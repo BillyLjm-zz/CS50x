@@ -44,7 +44,7 @@ sys     0m0.000s
 ```
 >> time ./crack 50NwUtF.OmQNY
 1337
-real	1m12.660s
-user	1m1.356s
-sys	0m0.176s
+real    1m12.660s
+user    1m1.356s
+sys     0m0.176s
 ```

@@ -10,13 +10,14 @@ __Date:__ 2015
 __School__ Harvard University  
 
 ## Description
-Each file contains a week's problem sets & are separated into normal/hacker editions.  
-`pset` - normal problem sets  
-`hacker` - hacker editions (harder than their normal counterparts)  
+Each file contains a week's problem sets & are separated into normal `pset` and harder `hacker`.   
 The purpose of each program is written directly into each file.  
 Instructions for the problem sets are linked below.  
+
+## Libraries
+ * [CS50 library](https://mirror.cs50.net/library50/c/cs50-library-c-3.0/) (used when getting any textual user input, and is required for most codes)  
+ * [Stanford C++ library](http://stanford.edu/~stepp/cppdoc/) (only gevents, gwindow & gobjects for `breakout` in pset3 & hacker3)  
 
 ## Links
  * [VM Instructions](https://manual.cs50.net/appliance/2014/#how_to_install_appliance)  
  * [Problem Set Instructions](http://cdn.cs50.net/2015/x/psets/) (navigate via week number -> normal/hacker ->  html/pdf)  
- * [CS50.h](https://mirror.cs50.net/library50/c/cs50-library-c-3.0/cs50.h) and [CS50.c](https://mirror.cs50.net/library50/c/cs50-library-c-3.0/cs50.c) (have to be included at compile time)  

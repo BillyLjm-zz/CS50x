@@ -8,7 +8,6 @@
 #include <cs50.h>
 #include "helpers.h"
 
-bool search(int value, int values[], int n){
 /**
  * @brief: Binary Search
  *
@@ -17,6 +16,8 @@ bool search(int value, int values[], int n){
  * @param n: size of `values`
  * @return: 1 if `value` found, 0 otherwise.
  */
+bool search(int value, int values[], int n)
+{
 	int min, max, mid; // ranges of binary search
 
 	// verify array size
@@ -50,8 +51,6 @@ bool search(int value, int values[], int n){
 	}
 }
 
-
-void sort(int values[], int n){
 /**
  * @brief: Bubble sort in ascending order
  *
@@ -59,6 +58,8 @@ void sort(int values[], int n){
  * @param [in] values: array to sort
  * @param [out] values: sorted array
  */
+void sort(int values[], int n)
+{
 	bool sorted = false; // boolean of whether `values` is sorted
 	int buffer; // temporarily store values for swaps
 

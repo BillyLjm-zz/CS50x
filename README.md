@@ -16,7 +16,7 @@ Instructions for the problem sets are linked below.
 
 ## Libraries
  * [CS50 library](https://mirror.cs50.net/library50/c/cs50-library-c-3.0/) (used when getting any textual user input, and is required for most codes)  
- * [Stanford C++ library](http://stanford.edu/~stepp/cppdoc/) (only gevents, gwindow & gobjects for `breakout` in pset3 & hacker3)  
+ * [Stanford C++ library](http://stanford.edu/~stepp/cppdoc/) (only `gevents`, `gwindow` & `gobject`s for `breakout` in `pset3` & `hacker3`)  
 
 ## Links
  * [VM Instructions](https://manual.cs50.net/appliance/2014/#how_to_install_appliance)  

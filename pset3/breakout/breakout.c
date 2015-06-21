@@ -187,7 +187,7 @@ void initBricks(int numCols, int numRows, GRect bricks[numCols][numRows])
 	float h = 10; // height of bricks
 	float xgap = 5; // horizontal gap
 	float ygap = 5; // vertical gap
-	float yoffset = 50; // gap b/w bricks & top border
+	float yoffset = 70; // gap b/w bricks & top border
 	float xoffset = (WIDTH - numCols * w - (numCols - 1) * xgap)/2; // to centre bricks
 
 	for(int i = 0; i < numCols; i++){

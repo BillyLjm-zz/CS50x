@@ -14,6 +14,14 @@ Each file contains a week's problem sets & are separated into normal `pset` and 
 The purpose of each program is written directly into each file.  
 Instructions for the problem sets are linked below.  
 
+## Topics by Pset
+`pset1` - Basic data manipulation  
+`pset2` - Encryption & Ciphers  
+`pset3` - Sort & Search (and a Breakout game)  
+`pset4` - BMP Manipulation  
+`pset5` - Hash Table & Linked Lists  
+`pset6` - HTML protocol  
+
 ## Libraries
  * [CS50 library](https://mirror.cs50.net/library50/c/cs50-library-c-3.0/) (used when getting any textual user input, and is required for most codes)  
  * [Stanford C++ library](http://stanford.edu/~stepp/cppdoc/) (only `gevents`, `gwindow` & `gobject`s for `breakout` in `pset3` & `hacker3`)  

@@ -21,6 +21,8 @@ Instructions for the problem sets are linked below.
 `pset4` - BMP Manipulation  
 `pset5` - Hash Table & Linked Lists  
 `pset6` - HTML protocol  
+`pset7` - PHP, HTML & SQL  
+`pset8` - JS, PHP, HTML & SQL  
 
 ## Libraries
  * [CS50 library](https://mirror.cs50.net/library50/c/cs50-library-c-3.0/) (used when getting any textual user input, and is required for most codes)  
